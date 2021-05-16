@@ -26,24 +26,37 @@ for example,
 i/p:
 
 Give inputs and click enter twice:
+
 2,4
+
 1,2
+
 3,3
+
 4,4
 
 
 o/p:
 
 Packing Feasibility truck is:
+ 1  1  1  1
+ 
  1  1  1  1 
- 1  1  1  1 
+ 
  2  2  0  0 
+ 
+ 3  3  3  0
+ 
  3  3  3  0 
+ 
  3  3  3  0 
- 3  3  3  0 
+ 
  4  4  4  4 
+ 
  4  4  4  4 
+ 
  4  4  4  4 
+ 
  4  4  4  4 
  
  
