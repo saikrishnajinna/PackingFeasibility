@@ -23,7 +23,9 @@ A matrix is printed, where 0 denotes empty spaces and the numbers denote the goo
 
 
 for example,
+
 i/p:
+
 
 Give inputs and click enter twice:
 
@@ -38,7 +40,9 @@ Give inputs and click enter twice:
 
 o/p:
 
+
 Packing Feasibility truck is:
+
  1  1  1  1
  
  1  1  1  1 
