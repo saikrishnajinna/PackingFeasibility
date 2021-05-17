@@ -50,7 +50,6 @@ public static void main(String[] args) throws IOException {
 
         input.close();
     } catch (Exception ex) {
-        ex.printStackTrace();
     }
 
     p.calcMinimumArea(); 
@@ -163,9 +162,9 @@ private void calcMinimumArea() {
 private void printSolution(int field[][]) { 
     System.out.println("Packing Feasibility truck is:");
     
-    for (int i = 0; i < field.length; i++) {
+    for (int[] field1 : field) {
         for (int j = 0; j < field[0].length; j++) {
-            System.out.print(" "+field[i][j] + " ");
+            System.out.print(" " + field1[j] + " ");
         }
         System.out.println();
     }               
