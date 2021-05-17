@@ -1,4 +1,5 @@
 # PackingFeasibility
+**-Overview**
 Consider a logistics company delivering goods to customers. In order to save time and transportation cost, it is necessary to load the trucks in such a way that they can accommodate maximum possible goods into the trucks.
 
 Packing feasibility will help us with best possible way to pack a truck with goods available to deliver.
@@ -12,12 +13,13 @@ The required area to load the goods will be in between maximum area and minimum 
 We try placing goods recursively and check for best possible loading.
 
 
-inputs:
+**inputs:**
+
 As we run the program, it asks for standard input of height and width.
 in the format: "height,width" and click enter. 
 once all the goods dimesnionals are given, click enter twice.
 
-output:
+**output:**
 
 A matrix is printed, where 0 denotes empty spaces and the numbers denote the goods.
 
